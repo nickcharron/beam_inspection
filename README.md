@@ -31,7 +31,6 @@ cd ~/catkin_ws_inspection/src
 git clone --depth 1 --recursive --shallow-submodules git@github.com:BEAMRobotics/beam_slam.git 
 git clone --depth 1 git@github.com:BEAMRobotics/libbeam.git
 git clone --depth 1 git@github.com:nickcharron/3d_map_builder.git
-git clone --depth 1 git@github.com:nickcharron/calibration_publisher.git
 git clone --depth 1 git@github.com:ros-drivers/velodyne.git
 
 # fix fuse
