@@ -1,0 +1,9 @@
+{
+  "crack_threshold": 0.5,
+  "spall_threshold": 0.5,
+  "delam_threshold": 0.5,
+  "corrosion_threshold": 0.5,
+  "euc_clustering_tol_m": 0.2,
+  "euc_clustering_min_points": 20,
+  "concave_hull_alpha": 0.1
+}

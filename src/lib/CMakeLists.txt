@@ -1,0 +1,24 @@
+# Core inspection library
+add_library(${PROJECT_NAME}
+  CloudCombiner.cpp
+  ImageExtractor.cpp
+  ImageDatabase.cpp
+  MapLabeler.cpp
+  Camera.cpp
+  DefectQuantification.cpp
+  InspectionUtils.cpp
+  Utils.cpp
+)
+target_include_directories(${PROJECT_NAME}
+  PUBLIC
+    ../../include
+)
+target_link_libraries(${PROJECT_NAME}
+  beam::beam
+  Boost::boost
+  PCL::PCL
+  OpenCV::OpenCV
+  nlohmann_json::nlohmann_json
+  ${pcl_ros_LIBRARIES}
+  ${catkin_LIBRARIES}
+)

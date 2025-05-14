@@ -1,0 +1,15 @@
+{
+  "final_map_name": "combined_cloud.pcd",
+  "depth_enhancement": false,
+  "colorizer": "Projection2",
+  "cameras": [
+    {
+      "Name": "camera0",
+      "Intrinsics": "F1_full.json",
+      "Enabled": true,
+      "SelectedImages": [
+        "All"
+      ]
+    }
+  ]
+}

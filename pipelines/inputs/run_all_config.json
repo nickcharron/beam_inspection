@@ -1,0 +1,25 @@
+{
+    "preprocess_bag": true,
+    "slam": {
+        "enable": true,
+        "rosbag_play_rate": 0.5,
+        "local_mapper_config": "lio.yaml",
+        "global_mapper_config": "global_mapper.yaml"
+    },
+    "map_refinement": {
+        "run_submap_refinement": false,
+        "run_submap_alignment": false,
+        "run_posegraph_optimization": false,
+        "run_batch_optimizer": true
+    },
+    "run_map_builder": true,
+    "use_refined_results_for_map": true,
+    "run_image_extractor": true,
+    "run_image_selection": true,
+    "run_sam_labeling": true,
+    "map_labeler": {
+        "color_map": true,
+        "label_defects": true
+    },
+    "run_quantify_defects": true
+}
