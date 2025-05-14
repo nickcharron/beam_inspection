@@ -189,7 +189,7 @@ You should expect to see the following images in the image containers which have
 This component does two things. First, it colors the map with the RGB images selected above. It then takes all image masks labeled above and projects those to the pointcloud. It does this for each image, saving a cropped map containing only the points that were colored, and also provides a combined map. See the image below for example results on the example bridge dataset.
 
 ![Map labeling](docs/MapLabelingBridge.jpg)
-![All defects](docs/BridgeDefectsAll.jpg)
+![All defects](docs/BridgeDefectsAll.png)
 
 
 **8.run_quantify_defects**: 
